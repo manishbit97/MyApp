@@ -101,6 +101,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_web) {
 
         } else if (id == R.id.nav_photo) {
+            Intent i = new Intent(MainActivity.this, Gallery.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_results) {
 
