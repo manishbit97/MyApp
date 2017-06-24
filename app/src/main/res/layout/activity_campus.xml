@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/mesra"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                Bit mesra campus
+
+                       About Campus"
+            android:id="@+id/textView22"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="19dp"
+            android:text="For over five decades, BIT Mesra (located 16 kms from  Ranchi, the  Jharkhand state-capital)has been engaged in nurturing minds through a rich heritage of academic excellence. Essentially a hub of bustling student activities, the beautiful campus has been a second-home to thousands of students in their journey to challenge the times.
+
+ Established in 1955 by the visionary-industrialist Mr. B.M. Birla, it is today one of the most premier engineering destinations in India.
+
+
+ Fast Facts
+Established in 1955 by Mr. B M Birla.A premier technical institute and deemed University.
+Main Campus Size - 780 acres
+
+Total number of registered students across all centres - more than 10,000.
+Doctoral students - 150
+Programmes offered - Undergraduate,
+Post- graduate,
+Doctoral
+Graduate degrees awarded - over 18,000
+Postgraduate degrees offered - over 2500"
+            android:id="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+</LinearLayout>

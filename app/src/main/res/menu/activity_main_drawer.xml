@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_campus"
+            android:icon="@drawable/ic_menu_campus"
+            android:title="Campus" />
+        <item
+            android:id="@+id/nav_admission"
+            android:icon="@drawable/ic_menu_admission"
+            android:title="Admission" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_menu_notice"
+            android:title="Notice" />
+        <item
+            android:id="@+id/nav_placement"
+            android:icon="@drawable/ic_menu_placement"
+            android:title="Placement News" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_menu_web"
+            android:title="Web Links" />
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Photo Gallery" />
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_menu_results"
+            android:title="Results" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_menu_locate"
+            android:title="Locate us" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_about"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
