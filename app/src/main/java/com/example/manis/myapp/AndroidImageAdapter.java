@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.squareup.picasso.Picasso;
+
 /**
  * Created by manis on 24-Jun-17.
  */
@@ -22,9 +24,11 @@ public class AndroidImageAdapter extends PagerAdapter {
         return sliderImagesId.length;
     }
 
-    private int[] sliderImagesId = new int[]{
-            R.drawable.image1, R.drawable.image2, R.drawable.cat,
-            
+    private String[] sliderImagesId = new String[]{
+           "http://images.all-free-download.com/images/graphiclarge/mississippi_landscape_scenic_214567.jpg",
+            "https://s-media-cache-ak0.pinimg.com/originals/57/80/0e/57800e6fd63b49c51c106bc26bbc3933.jpg",
+            "https://s-media-cache-ak0.pinimg.com/736x/9e/9a/84/9e9a847b036b582a20fb4ae76c444fb3--green-scenery-black-garden.jpg"
+
     };
 
     @Override
@@ -36,7 +40,10 @@ public class AndroidImageAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int i) {
         ImageView mImageView = new ImageView(mContext);
         mImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        mImageView.setImageResource(sliderImagesId[i]);
+       // mImageView.setImageResource(sliderImagesId[i]);
+
+
+        Picasso.with(mContext).load(sliderImagesId[i]).into(mImageView);
         ((ViewPager) container).addView(mImageView, 0);
         return mImageView;
     }
